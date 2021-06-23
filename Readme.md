@@ -1,4 +1,4 @@
-# How to get AWS Cloud Watch data using boto3?
+# How to get or put AWS Cloud Watch data using boto3?
 這是我測試從 AWS Cloudwatch Metrics 取跟放資料的程式，有需要的人可以自行取用，[官方文檔](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/cloudwatch.html?highlight=cloudwatch)在這。使用之前請先參考[這裏](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html)作前置作業。但除非特殊情況，建議直接看 Cloud Watch 頁面的圖表就好了，因為從 Cloud Watch 取用資料有諸多限制，詳細請看以下紀錄：
 
 ## 讀取資料會有資料量的限制
